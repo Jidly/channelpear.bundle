@@ -13,13 +13,14 @@ This plugin provides access to your channel PEAR library via Plex.
 
 ### Installation ###
 1. Must have [Plex Media Server][GetPlex] installed
-2. Download the zip archive and extract it to Plex plugin folder, for more details read the [official channel installation guide](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-):
+2. Must have a channel PEAR account with sources in your library
+3. Download the zip archive and extract it to Plex plugin folder, for more details read the [official channel installation guide](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-):
   * on Windows: *C:\Users\USERNAME\AppData\Local\Plex Media Server\Plug-ins*
   * on Mac: *~Library/Application Support/Plex Media Server/Plug-ins*
   * on Linux: */usr/lib/plexmediaserver/Resources/Plug-ins* or */var/lib/plex/Plex Media Server/Plug-ins*
   * on FreeBSD *usr/pbi/plexmediaserver-amd64/plexdata/Plex\ Media\ Server/Plug-ins/*
-3. Rename folder from *channelpear.bundle-master* to *channelpear.bundle*
-4. Restart Plex Media Server
+4. Rename folder from *channelpear.bundle-master* to *channelpear.bundle*
+5. Restart Plex Media Server
 
 ### Load your Library ###
 Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library.
@@ -42,7 +43,7 @@ Streams **will play only on clients that are able to handle the stream natively*
 
 ### Credits ###
 * Developer: [channel PEAR]
-built off of the original IPTV.bundle plugin by Cigaras: https://github.com/Cigaras/IPTV.bundle
+* built off of the original IPTV.bundle plugin by Cigaras
 
 ### License ###
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
