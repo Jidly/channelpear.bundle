@@ -1,5 +1,4 @@
 ## Plex Media Server plugin for channel PEAR ##
-by channelpear.com
 
 1. [Introduction][1]
 2. [Installation][2]
@@ -14,16 +13,16 @@ This plugin provides access to your channel PEAR library via Plex.
 ### Installation ###
 1. Must have [Plex Media Server][GetPlex] installed
 2. Must have a channel PEAR account with sources in your library
-3. Download the zip archive and extract it to Plex plugin folder, for more details read the [official channel installation guide](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-):
-  * on Windows: *C:\Users\USERNAME\AppData\Local\Plex Media Server\Plug-ins*
-  * on Mac: *~Library/Application Support/Plex Media Server/Plug-ins*
-  * on Linux: */usr/lib/plexmediaserver/Resources/Plug-ins* or */var/lib/plex/Plex Media Server/Plug-ins*
+3. Download the archive and extract it to the Plex plugin folder, for more details read the [official channel installation guide](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-):
+  * on Windows: *C:\Users\USERNAME\AppData\Local\Plex Media Server\Plug-ins\*
+  * on Mac: *~Library/Application Support/Plex Media Server/Plug-ins/*
+  * on Linux: */usr/lib/plexmediaserver/Resources/Plug-ins* or */var/lib/plex/Plex Media Server/Plug-ins/*
   * on FreeBSD *usr/pbi/plexmediaserver-amd64/plexdata/Plex\ Media\ Server/Plug-ins/*
-4. Rename folder from *channelpear.bundle-master* to *channelpear.bundle*
+4. Rename folder from **channelpear.bundle-master** to **channelpear.bundle**
 5. Restart Plex Media Server
 
 ### Load your Library ###
-Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library.
+Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**
 
 ### Compatible devices ###
 Streams **will play only on clients that are able to handle the stream natively**. Below is a list of devices that support playback to some extent:
