@@ -1,0 +1,26 @@
+[
+    {
+        "id":       "playlist",
+        "label":    "Enter your custom channel PEAR Plex URL",
+        "type":     "text",
+        "default":  ""
+    },
+    {
+        "id":       "sort_groups",
+        "label":    "Sort groups by name",
+        "type":     "bool",
+        "default":  "true"
+    },
+    {
+        "id":       "sort_lists",
+        "label":    "Sort streams by name",
+        "type":     "bool",
+        "default":  "true"
+    },
+    {
+        "id":       "rtmp",
+        "label":    "Use Real RTMP",
+        "type":     "bool",
+        "default":  "false"
+    }
+]
