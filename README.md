@@ -2,7 +2,7 @@
 
 1. [Introduction][1]
 2. [Installation][2]
-3. [Load your Library][3]
+3. [Link your Library][3]
 4. [Compatible devices][4]
 5. [Credits][5]
 6. [License][6]
@@ -21,8 +21,8 @@ This plugin provides access to your channel PEAR library via Plex.
 4. Rename folder from **channelpear.bundle-master** to **channelpear.bundle**
 5. Restart Plex Media Server
 
-### Load your Library ###
-Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**
+### Link your Library ###
+Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**. Go here for linking instructions: http://jidly.github.io/channelpear.bundle/
 
 ### Compatible devices ###
 Streams **will play only on clients that are able to handle the stream natively**. Below is a list of devices that support playback to some extent:
@@ -51,7 +51,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
   [1]: #introduction "Introduction"
   [2]: #installation "Installation"
-  [3]: #load-your-library "Load your Library"
+  [3]: #link-your-library "Link your Library"
   [4]: #compatible-devices "Compatible devices"
   [5]: #credits "Credits"
   [6]: #license "License"
