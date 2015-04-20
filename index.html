@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>channel PEAR - Plex plugin by Jidly</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Jidly/channelpear.bundle">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Jidly/channelpear.bundle/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Jidly/channelpear.bundle/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>channel PEAR - Plex plugin</h1>
+          <p>channel PEAR plugin for Plex</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Jidly">Jidly</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a id="plex-media-server-plugin-for-channel-pear" class="anchor" href="#plex-media-server-plugin-for-channel-pear" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plex Media Server plugin for channel PEAR</h2>
+
+<p>by channelpear.com</p>
+
+<ol>
+<li><a href="#introduction" title="Introduction">Introduction</a></li>
+<li><a href="#installation" title="Installation">Installation</a></li>
+<li><a href="#load-your-library" title="Load your Library">Load your Library</a></li>
+<li><a href="#compatible-devices" title="Compatible devices">Compatible devices</a></li>
+<li><a href="#credits" title="Credits">Credits</a></li>
+<li><a href="#license" title="License">License</a></li>
+</ol>
+
+<h3>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h3>
+
+<p>This plugin provides access to your channel PEAR library via Plex.</p>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<ol>
+<li>Must have <a href="https://www.plex.tv/downloads">Plex Media Server</a> installed</li>
+<li>Must have a channel PEAR account with sources in your library</li>
+<li>Download the zip archive and extract it to Plex plugin folder, for more details read the <a href="https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-">official channel installation guide</a>:
+
+<ul>
+<li>on Windows: <em>C:\Users\USERNAME\AppData\Local\Plex Media Server\Plug-ins</em>
+</li>
+<li>on Mac: <em>~Library/Application Support/Plex Media Server/Plug-ins</em>
+</li>
+<li>on Linux: <em>/usr/lib/plexmediaserver/Resources/Plug-ins</em> or <em>/var/lib/plex/Plex Media Server/Plug-ins</em>
+</li>
+<li>on FreeBSD <em>usr/pbi/plexmediaserver-amd64/plexdata/Plex\ Media\ Server/Plug-ins/</em>
+</li>
+</ul>
+</li>
+<li>Rename folder from <em>channelpear.bundle-master</em> to <em>channelpear.bundle</em>
+</li>
+<li>Restart Plex Media Server</li>
+</ol>
+
+<h3>
+<a id="load-your-library" class="anchor" href="#load-your-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>Load your Library</h3>
+
+<p>Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library.</p>
+
+<h3>
+<a id="compatible-devices" class="anchor" href="#compatible-devices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compatible devices</h3>
+
+<p>Streams <strong>will play only on clients that are able to handle the stream natively</strong>. Below is a list of devices that support playback to some extent:</p>
+
+<ul>
+<li>
+<strong>Desktop Clients</strong>:
+
+<ul>
+<li>
+<strong><a href="https://support.plex.tv/hc/en-us/articles/201142378--Deprecated-Plex-Media-Center-Windows-OS-X">Plex Media Center</a></strong> - plays most streams without problems</li>
+</ul>
+</li>
+<li>
+<strong>Connected Devices</strong>:
+
+<ul>
+<li>
+<strong>Plex for LG TV (<a href="http://www.plexapp.com/medialink">MediaLink</a>)</strong> plays HTTP and RTSP streams</li>
+<li>
+<strong><a href="https://forums.plex.tv/index.php?/topic/69410-READ-BEFORE-POSTING">PlexConnect</a> (Apple TV)</strong> - plays most streams without problems, may need to alternate between transcoding options</li>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for Roku</a></strong> - plays most streams without problems</li>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for Chromecast</a></strong> - not tested</li>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for Google TV</a></strong> - not tested</li>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for Samsung</a></strong> - not tested</li>
+</ul>
+</li>
+<li>
+<strong>Mobile Devices</strong>:
+
+<ul>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for Android</a></strong> - not tested, however devices with Android 4.1+ support m3u8 playback which means you can access your library directly from the channelpear.com website and play streams via Chrome</li>
+<li>
+<strong><a href="https://www.plex.tv/downloads">Plex for iOS</a></strong> - not tested, however iOS supports m3u8 playback matively which means you can access your library directly from the channelpear.com website and play streams</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h3>
+
+<ul>
+<li>Developer: <a href="https://channelpear.com/">channel PEAR</a>
+</li>
+<li>built off of the original IPTV.bundle plugin by Cigaras</li>
+</ul>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> for more details.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
