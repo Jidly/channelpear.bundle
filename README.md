@@ -3,9 +3,10 @@
 1. [Introduction][1]
 2. [Installation][2]
 3. [Link your Library][3]
-4. [Compatible devices][4]
-5. [Credits][5]
-6. [License][6]
+4. [Change Settings][4]
+5. [Compatible devices][5]
+6. [Credits][6]
+7. [License][7]
 
 ### Introduction ###
 This plugin provides access to your channel PEAR library via Plex.
@@ -20,6 +21,11 @@ This plugin provides access to your channel PEAR library via Plex.
   * on FreeBSD *usr/pbi/plexmediaserver-amd64/plexdata/Plex\ Media\ Server/Plug-ins/*
 4. Rename folder from **channelpear.bundle-master** to **channelpear.bundle**
 5. Restart Plex Media Server
+
+### Change Settings ###
+You must disable "Direct Play" and "Direct Stream" in your Plex Web settings under the "Player" category. (click "show advanced" if you can't see the options)
+
+Doing this will allow you to stream from sources in a web browser that would otherwise fail due to crossdomain restrictions.
 
 ### Link your Library ###
 Once you've installed the plugin successfully, you'll need to link it to your channel PEAR library. **The plugin will not work until you complete this step**. Go here for linking instructions: http://jidly.github.io/channelpear.bundle/
