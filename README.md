@@ -34,7 +34,7 @@ Once you've installed the plugin successfully, you'll need to link it to your ch
 Streams **will play only on clients that are able to handle the stream natively**. Below is a list of devices that support playback to some extent:
 
 * **Web Clients**:
-  * **[Plex Web App]** - make sure Direct Play and Direct Streqam are disabled and it should play most streams without problems
+  * **[Plex Web App] (local)** - make sure Direct Play and Direct Streqam are disabled and it should play most streams without problems
 * **Desktop Clients**:
   * **[Plex Media Center]** - plays most streams without problems
 * **Connected Devices**:
@@ -67,6 +67,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
   [channel PEAR]: https://channelpear.com/
   [IPTV]: http://en.wikipedia.org/wiki/IPTV
   [GetPlex]: https://www.plex.tv/downloads
-  [Plex Web]: https://support.plex.tv/hc/en-us/articles/200288666-Opening-Plex-Web-App
+  [Plex Web App]: https://support.plex.tv/hc/en-us/articles/200288666-Opening-Plex-Web-App
   [Plex Media Center]: https://support.plex.tv/hc/en-us/articles/201142378--Deprecated-Plex-Media-Center-Windows-OS-X
   [MediaLink]: http://www.plexapp.com/medialink
