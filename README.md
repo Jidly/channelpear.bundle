@@ -2,8 +2,8 @@
 
 1. [Introduction][1]
 2. [Installation][2]
-3. [Link your Library][3]
-4. [Change Settings][4]
+3. [Change Settings][3]
+4. [Link your Library][4]
 5. [Compatible devices][5]
 6. [Credits][6]
 7. [License][7]
@@ -57,10 +57,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
   [1]: #introduction "Introduction"
   [2]: #installation "Installation"
-  [3]: #link-your-library "Link your Library"
-  [4]: #compatible-devices "Compatible devices"
-  [5]: #credits "Credits"
-  [6]: #license "License"
+  [3]: #change-settings "Change Settings"
+  [4]: #link-your-library "Link your Library"
+  [5]: #compatible-devices "Compatible devices"
+  [6]: #credits "Credits"
+  [7]: #license "License"
   [channel PEAR]: https://channelpear.com/
   [IPTV]: http://en.wikipedia.org/wiki/IPTV
   [GetPlex]: https://www.plex.tv/downloads
