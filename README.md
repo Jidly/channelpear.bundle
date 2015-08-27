@@ -34,7 +34,7 @@ Once you've installed the plugin successfully, you'll need to link it to your ch
 Streams **will play only on clients that are able to handle the stream natively**. Below is a list of devices that support playback to some extent:
 
 * **Web Clients**:
-  * **[Plex Web App] (local)** - make sure Direct Play and Direct Streqam are disabled and it should play most streams without problems
+  * **[Plex Web App]** - make sure Direct Play and Direct Streqam are disabled and it should play most streams without problems when run locally
 * **Desktop Clients**:
   * **[Plex Media Center]** - plays most streams without problems
 * **Connected Devices**:
